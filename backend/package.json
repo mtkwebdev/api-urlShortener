@@ -4,7 +4,7 @@
   "description": "This app acts as the server between the front end and database for a URL shortener app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "Mohammad Kawadri",
   "license": "ISC",
