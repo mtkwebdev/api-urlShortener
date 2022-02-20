@@ -42,7 +42,8 @@ router.post('/short', async(req,res)=>{
                 res.status(500).json('Server Error')
         }
     }
-
-
+    else {
+        res.status(400).json('Invalid Original Url')
+    }
 })
 
