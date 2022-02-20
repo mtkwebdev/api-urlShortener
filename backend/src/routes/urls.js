@@ -1,4 +1,4 @@
-const express = requrie('express')
+const express = require('express')
 const router = express.Router()
 
 const nanoID = require('nanoid');
@@ -47,3 +47,4 @@ router.post('/short', async(req,res)=>{
     }
 })
 
+module.exports = router;
